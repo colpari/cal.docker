@@ -20,8 +20,8 @@ services:
     networks:
       - stack
 
-  calcom:
-    image: calcom.docker.scarf.sh/calcom/cal.com
+  cal:
+    image: containers.colpari.dev/colpari-hello/cal.cx
     build:
       context: .
       dockerfile: Dockerfile

@@ -1,4 +1,4 @@
 [submodule "calcom"]
 	path = calcom
-	url = https://github.com/calcom/cal.com.git
-	branch = main
+	url = ssh://git@dev.colpari.com:2222/colpari-hello/cal.cx
+	branch = colpari-3.0.1

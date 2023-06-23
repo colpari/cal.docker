@@ -19,6 +19,8 @@ services:
     env_file: .env
     networks:
       - stack
+    ports:
+      - 5432:5432
 
   cal:
     image: containers.colpari.dev/colpari-hello/cal.cx
